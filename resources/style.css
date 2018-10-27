@@ -9,27 +9,27 @@ body {
 }
 
 /*Header*/
-.header {
+header {
  background-color: black;
- display: flex;
  height: 69px;
  width: 100%;
  top: 0;
  border-bottom: 1px solid seashell;
  position: fixed;
  z-index: 1;
+ align-items: center;
 }
 
-.nav-image {
-   display: flex;
-   padding-left: 10px;
-   flex-grow: 1;
-}
-
-.nav-image img {
-  height: 50px;
-  weight: auto;
+.headerbox {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Logo*/
+header img {
+  height: 50px;
+  padding-left: 10px;
 }
 
 .nav-bar {
@@ -37,16 +37,15 @@ body {
    flex-grow: 1;
    padding: 20px 10px;
    margin-top: 10px;
-   justify-content: flex-end;
 }
 
 a {
   text-decoration: underline;
   color: seashell;
-  padding-top: 15px;
+  padding: 10px 15px;
 }
 
-/*Body*/
+/*Main Content*/
 .content {
   z-index: 0;
   position: relative;
