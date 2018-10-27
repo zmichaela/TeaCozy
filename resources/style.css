@@ -60,16 +60,17 @@ a {
 .content {
   z-index: 0;
   position: relative;
-  display: flex;
+  display: block;
   width: 100%;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
 }
 
 /*Main image - Our Mission*/
 #mission {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  width: 1200px;
   height: 700px;
   padding-top: 70px;
 }
