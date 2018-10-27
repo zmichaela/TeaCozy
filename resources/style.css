@@ -78,7 +78,6 @@ a {
   margin: auto;
   background-color: black;
   width: 100%;
-  align-content: center;
   margin-top: 235px;
 }
 
@@ -103,40 +102,29 @@ a {
 /*Locations*/
 
 #locations {
-  display: flex;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   padding-top: 65px;
 }
 
-.locations h2 {
-  padding-bottom: 15px;
-}
-
-.locationsimage h2 {
- text-align: center;
-}
-
-.locations-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#locations .flex-container {
+    margin: auto;
 }
 
 /*Black boxes*/
+
+.flex-container .location {
+   padding-top: 15px;
+}
 
 .location {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 300px;
-  width: 300px;
-  text-align: center;
   background-color: black;
   margin: 5px 20px;
-  padding: 10px;
   opacity: 1;
-  flex-basis: 280px;
+  width: 300px;
 }
 
 /*Contact*/
